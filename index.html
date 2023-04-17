@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js CRUD sản phẩm</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="styles.css" />
+        <script type="module" src="script.js"></script>
+    </head>
+    <body>
+        <h1> CRUD SP</h1>
+        <div>
+            <div>
+                <form>
+                    <div>
+                        <label for="name">name</label> <br>
+                        <input type="text" id="name" name="name"> <br>
+                    </div>
+                    <div>
+                        <label for="price">price:</label> <br>
+                        <input type="text" id="price" name="price"> <br>
+                    </div>
+                    <div>
+                        <label for="detail">detail:</label> <br>
+                        <input type="text" id="detail" name="detail"><br>
+                    </div>
+                    <div>
+                        <label for="color">color:</label> <br>
+                        <input type="text" id="color" name="color"> <br>
+                    </div>
+                    <div>
+                        <button class="btn pri" id="submit" type="button">Submit</button> <br>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                      <td>Id</td>
+                      <td>Name</td>
+                      <td>Price</td>
+                      <td>Detail</td>
+                      <td>Color</td>
+                      <td>Action</td>
+                    </tr>
+                    <tbody id="tbody">
+                      <tr>
+                        <td>1</td>
+                        <td>Candy</td>
+                        <td>1$</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                          <button class="btn">Edit</button>
+                          <button class="btn">Delete</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </body>
+</html>
